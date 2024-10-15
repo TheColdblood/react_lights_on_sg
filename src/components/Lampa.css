@@ -1,0 +1,23 @@
+.Jatekter {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    gap: 5px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.lampa {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.lampa.fel {
+    background-color: yellow;
+}
+
+.lampa.le {
+    background-color: green;
+}
